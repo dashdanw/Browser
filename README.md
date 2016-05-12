@@ -5,7 +5,7 @@ Requirements:
 PHP ~5.3
 That's it!
 
-**Cookies are currently not functioning but will be implemented soon**
+*Cookies are currently not functioning but will be implemented soon*
 
 ##Usage
 ```php
