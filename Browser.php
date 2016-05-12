@@ -22,17 +22,7 @@ class Browser
     private $res_header;
     private $res_content;
 
-    private $http_methods = array(
-            'CONNECT',
-            'DELETE',
-            'GET',
-            'HEAD',
-            'OPTIONS',
-            'POST',
-            'PUT',
-            'TRACE',
-            'PATCH',
-        );
+    private $http_methods = array( 'CONNECT', 'DELETE', 'GET', 'HEAD', 'OPTIONS', 'POST', 'PUT', 'TRACE', 'PATCH' );
 
     public function __construct(CookieJar $cookie_jar = null, array $opt_args = array())
     {
