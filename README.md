@@ -13,8 +13,7 @@ use Dash\Browser\Browser;
 
 $browser = new Browser();
 
-//prints content body of response
-echo $browser->request('http://google.com','GET');
+$browser->request('http://google.com','GET');
 
 $response_status = $browser->getStatusCode();
 $content_body    = $browser->getBody();
