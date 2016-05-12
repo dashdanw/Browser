@@ -9,9 +9,10 @@ Cookies are currently not functioning but will be implemented soon
 
 ##Usage
 ```php
-
 use Dash\Browser\Browser;
 
 $browser = new Browser();
+echo $browser->request('http://google.com','GET');
+echo $browser->getStatusCode();
 ```
 
