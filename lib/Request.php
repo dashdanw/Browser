@@ -14,7 +14,7 @@ class Request
     private $method;
     private $header;
     private $content;
-    
+
     private $http_methods = array('CONNECT', 'DELETE', 'GET', 'HEAD', 'OPTIONS', 'POST', 'PUT', 'TRACE', 'PATCH');
 
     /**
