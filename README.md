@@ -12,6 +12,7 @@ That's it!
 use Dash\Browser\Browser;
 
 $browser = new Browser();
+
 //prints content body of response
 echo $browser->request('http://google.com','GET');
 
