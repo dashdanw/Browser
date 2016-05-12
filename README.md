@@ -12,7 +12,11 @@ That's it!
 use Dash\Browser\Browser;
 
 $browser = new Browser();
+//prints content body of response
 echo $browser->request('http://google.com','GET');
-echo $browser->getStatusCode();
+
+$response_status = $browser->getStatusCode();
+$content_body    = $browser->getBody();
+$header_array    = $browser->getResponseHeader();
 ```
 
