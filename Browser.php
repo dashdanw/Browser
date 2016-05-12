@@ -75,7 +75,6 @@ class Browser
 
         //send request
         $this->res_content = file_get_contents($this->req_url, false, $context);
-        echo $this->res_content;
 
         //parse header
         $this->res_header = $http_response_header;
